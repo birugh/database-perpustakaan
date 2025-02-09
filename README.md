@@ -79,17 +79,6 @@ CALL SemuaSiswa();
 CALL SemuaBuku();
 ```
 
-## 📂 Struktur Repository
-```
-Database-Perpustakaan-Sekolah/
-├── sql/
-│   ├── db_perpus.sql  # Script pembuatan database & tabel
-│   ├── stored_procedures.sql  # Semua prosedur tersimpan di sini
-│   ├── triggers.sql  # Triggers untuk stok buku
-│   ├── test_queries.sql  # Query untuk menguji fitur
-├── README.md  # Dokumentasi proyek ini
-```
-
 ## 🛠 Fitur yang Digunakan
 - **MySQL** sebagai database utama
 - **Stored Procedures & Triggers** untuk otomatisasi
